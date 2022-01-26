@@ -7,7 +7,9 @@
   );
   padding: var(--size-8) 0;
 }
-
+.hero canvas{
+  margin: 65px 1px;
+}
 
 .image {
   width: 300px;

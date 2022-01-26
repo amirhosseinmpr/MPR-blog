@@ -38,7 +38,7 @@ function Hero() {
                 distance: 40,
                 duration: 2,
                 opacity: 0.8,
-                size: 4,
+                size: 8,
               },
               push: {
                 quantity: 4,
@@ -119,6 +119,7 @@ function Hero() {
           },
           interactivity: {
             detect_on: 'canvas',
+
             events: {
               onhover: {
                 enable: true,
@@ -169,7 +170,7 @@ function Hero() {
       </div>
       <h1>Hi, I'm AmirHossein </h1>
       <p>
-        I blog about web development -specially front-end frameworks like React
+        blog about web development -specially front-end frameworks like React
       </p>
     </section>
   );
