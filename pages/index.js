@@ -1,19 +1,21 @@
 import { Fragment } from 'react';
+
 import FeaturedPosts from '../components/home-page/featured-posts';
 import Hero from '../components/home-page/hero';
+import { getFeaturedPosts } from '../lib/posts-util';
 function HomePage() {
   const Dummy_POSTS = [
     {
       title: 'Getting Started with NextJS',
       slug: 'Getting-Started-with-NextJS',
-      image: 'Next.png',
+      image: 'Getting-Started-with-NextJS.png',
       excerpt: 'getting started ',
       date: '2022-01-24',
     },
     {
       title: 'optimize your Time for SUCCESS',
       slug: 'optimize-your-Time-for-SUCCESS-Time',
-      image: 'Time.png',
+      image: 'optimize-your-Time-for-SUCCESS-Time.png',
       excerpt:
         'Good time management enables you to work smarter – not harder – so that you get more done in less time.',
       date: '2022-01-10',
@@ -29,7 +31,7 @@ function HomePage() {
     {
       title: 'The Complete ReactJs Course - Basics to Advanced (2021)',
       slug: 'The-Complete-ReactJs-Course-Basics-to-Advanced-(2021)',
-      image: 'AdvanveReact.png',
+      image: 'The-Complete-ReactJs-Course-Basics-to-Advanced-(2021).png',
       excerpt:
         'What i learn At the end of this course,Introduction to what is React and its basic conceptsLearn what is JSX and how it works behind the scenesLearn what are the stateful and stateless components and when to use themWorking with function based and class based componentsWorking with React Modules, importing and exporting the modulesLearn in detail about how the render method worksReact component lifecycle and different lifecycle methodsCreating dynamic websites with help of re-usable componentsCreating a proper working structure for a project from scratch which will help maintaining the project for long term',
       date: '2021-09-23',
@@ -37,7 +39,7 @@ function HomePage() {
     {
       title: 'The Complete Git',
       slug: 'The-Complete-Git-Course-Basics-to-Advanced-(2021)',
-      image: 'GIT.png',
+      image: 'The-Complete-Git-Course-Basics-to-Advanced-(2021).png',
       excerpt:
         'What i learn At the end of this course,Introduction to what is React and its basic conceptsLearn what is JSX and how it works behind the scenesLearn what are the stateful and stateless components and when to use themWorking with function based and class based componentsWorking with React Modules, importing and exporting the modulesLearn in detail about how the render method worksReact component lifecycle and different lifecycle methodsCreating dynamic websites with help of re-usable componentsCreating a proper working structure for a project from scratch which will help maintaining the project for long term',
       date: '2021-09-23',
@@ -46,8 +48,16 @@ function HomePage() {
   return (
     <Fragment>
       <Hero />
-      <FeaturedPosts posts={Dummy_POSTS} />
+      <FeaturedPosts posts={props.posts} />
     </Fragment>
   );
+}
+export function getStaticProps(props) {
+  const featuredPosts = getFeaturedPosts();
+  return {
+    props: {
+      posts: featuredPosts,
+    },
+  };
 }
 export default HomePage;
