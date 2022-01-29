@@ -7,4 +7,47 @@ isFeatured: true
 --- 
 
 
-# this is a title
+
+NextJS is a **framework for ReactJS**.
+
+Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
+
+Well ... first of all, React is a "library" for JavaScript. That seems to be important for some people.
+
+Not for me, but still, there is a valid point: React already is a framework / library for JavaScript. So it's already an extra layer on top of JS.
+
+## What you’ll learn
+
+
+
+Understand some "Common Problems" developers face (without Git)
+Learn what is Version Control System (VCS )
+Download & Install Git Source Control System
+Create "First Git Project" (Initialize a Git Repository)
+Learn the key concepts of "Git Basic Workflow"
+Understand the difference between "Git Untracked" and "Git Tracked" files
+3 stages: Working Directory - Git Staging Area - Git Repository
+Learn Git Common Commands - "git status", "git add", "git commit", "git log"
+Review Changes using "git diff"
+Unstage & Revert - Important Git and GitHub functionalities
+Remove a file from a Git Repository
+Git GitHub: Introduction to GitHub [*Remote* Version Control System]
+Create a GitHub account
+Configure Remote GitHub repository with Local Git
+PUSH Local Repository to GitHub Repository
+Creating New Repository on GitHub
+Clone, Fork and Pull using Git and GitHub
+GitHub: Raw, Blame, and History
+GitHub: Watch, Star and Fork
+GitHub Issues & Labels
+Git Premium Content Visualization
+Git GitHub: Branching - Theory + Hands-On
+Git and GitHub: Merging - Process, Steps, and Merge Techniques
+Merge - Fast Forward in Git
+Merge - Recursive Merging (3-way) in Git and GitHub
+Conflict Resolution using Git - General Intro + Usage
+## File-based Routing
+
+![Create routes via your file + folder structure](nextjs-file-based-routing.png)
+
+... More content ...

@@ -7,4 +7,8 @@ isFeatured: true
 --- 
 
 
-# this is a title
+
+ **About this course**.
+
+About this course
+Good time management enables you to work smarter – not harder – so that you get more done in less time.
