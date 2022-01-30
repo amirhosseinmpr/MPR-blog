@@ -25,4 +25,4 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 - We cover what is React JS, how it uses JSX, how the compilation is done behind the scenes using babel to browser understandable plain old HTML, CSS, and javascript.
 - After that, we explain 'components' which are the basic building blocks of a web page while working with React JS. We also cover the stateless and stateful components and when to use those components as well.
 
-
+[see validation on udemy](https://www.udemy.com/certificate/UC-7394f0e1-0df4-46ea-837f-27136d4904c2/)

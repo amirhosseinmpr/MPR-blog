@@ -12,3 +12,4 @@ isFeatured: true
 
 About this course
 Good time management enables you to work smarter – not harder – so that you get more done in less time.
+[see validation on udemy](https://www.udemy.com/certificate/UC-f278f0b0-5e79-4ff0-9c48-d369b3ea34f5/)
