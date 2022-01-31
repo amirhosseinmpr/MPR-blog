@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import classes from './contact-form.module.css';
+import axios from 'axios';
 
 function ContactForm() {
   const [enteredEmail, setEnteredEmail] = useState('');
@@ -11,7 +12,7 @@ function ContactForm() {
     event.preventDefault();
 
     // optional: add client-side validation
-    fetch('/api/contact', {
+    axios.post('/api/contact').then({
       method: 'POST',
       body: JSON.stringify({
         email: enteredEmail,
