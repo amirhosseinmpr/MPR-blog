@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import classes from './contact-form.module.css';
 import Notification from '../ui/notification';
+import Particles from 'react-tsparticles';
 
 async function sendContactData(contactDetails) {
   const response = await fetch('/api/contact', {
