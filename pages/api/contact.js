@@ -3,9 +3,9 @@ function handlers(req, res) {
     const { email, name, message } = req.body;
     if (
       !email ||
-      !email.includes('@') ||
+      email.includes('@') ||
       !name ||
-      !name.trim() === '' ||
+      name.trim() === '' ||
       !message ||
       message.trim() === ''
     ) {
@@ -14,15 +14,15 @@ function handlers(req, res) {
       return;
     }
     //Store it in a database
-    const NewMessage = {
+    const newMessage = {
       email,
       name,
       message,
     };
-    console.log(NewMessage);
+    console.log(newMessage);
     res
       .status(201)
-      .json({ message: 'Succesfully stored message', message: NewMessage });
+      .json({ message: 'Successfully stored message', message: NewMessage });
   }
 }
 export default handlers;
