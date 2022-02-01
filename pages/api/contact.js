@@ -1,50 +1,42 @@
 import { MongoClient } from 'mongodb';
 
-async function handlers(req, res) {
-  if (req.method == 'POST') {
+async function handler(req, res) {
+  if (req.method === 'POST') {
     const { email, name, message } = req.body;
-    if (
-      !email ||
-      email.includes('@') ||
-      !name ||
-      name.trim() === '' ||
-      !message ||
-      message.trim() === ''
-    ) {
-      res.status(422).json({ message: 'invalid input' });
-
-      return;
-    }
-    //Store it in a database
     const newMessage = {
       email,
       name,
       message,
     };
+
     let client;
+
     try {
       client = await MongoClient.connect(
-        'mongodb+srv://changol:BUWF9@ua6i$j69C@cluster0.00gzi.mongodb.net/data-base?retryWrites=true&w=majority'
+        'mongodb+srv://USER:EjNUYvRsc8b8tEsK@cluster0.ji9cj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
       );
     } catch (error) {
-      res.status(500).json({ message: 'could not connect to database' });
+      res.status(500).json({ message: 'Could not connect to database.' });
       return;
     }
 
     const db = client.db();
+
     try {
       const result = await db.collection('messages').insertOne(newMessage);
       newMessage.id = result.insertedId;
     } catch (error) {
       client.close();
-      res.status(500).json({ message: 'storing message failed' });
+      res.status(500).json({ message: 'Storing message failed!' });
       return;
     }
 
     client.close();
+
     res
       .status(201)
-      .json({ message: 'Successfully stored message', message: NewMessage });
+      .json({ message: 'Successfully stored message!', message: newMessage });
   }
 }
-export default handlers;
+
+export default handler;
