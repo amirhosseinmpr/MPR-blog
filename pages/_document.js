@@ -4,7 +4,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head />
+        <Head>
+          <link rel='manifest' href='/manifest.json' />
+          <link rel='icon' type='image/png' sizes='16x16' href='/favicon.ico' />
+          <link rel='icon' type='image/png' sizes='32x32' href='/favicon.ico' />
+        </Head>
+
         <body>
           <Main />
           <NextScript />
