@@ -10,7 +10,7 @@ isFeatured: true
  **About this course**.
 
 How to Become an Effective Leader With the Help of Hidden Foundations of Dynamic Leaders of 21st Century
-## File-based Routing
+## see validation
 
 [see validation on udemy](https://www.udemy.com/course/leadership-a-z-ultimate-basic-skills-for-new-leaders/learn/lecture/28429396?start=0#overview)
 

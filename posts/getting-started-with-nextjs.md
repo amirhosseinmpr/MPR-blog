@@ -29,7 +29,7 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 - Image Optimization
 - Much More
 
-## File-based Routing
+## see validation
 
 ![Create routes via your file + folder structure](/images/posts/Getting-Started-with-NextJS/Getting-Started-with-NextJS.png)
 

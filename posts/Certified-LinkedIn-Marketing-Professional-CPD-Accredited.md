@@ -10,7 +10,7 @@ isFeatured: true
  **About this course**.
 
 LinkedIn Marketing Strategy to Skyrocket Sales & Boost Conversions. Use LinkedIn to Generate Targeted Leads for Business
-## File-based Routing
+## see validation
 
 [see validation on udemy](https://www.udemy.com/certificate/UC-c3bf295a-d5a0-45c5-ad17-430c16187d2d/)
 
