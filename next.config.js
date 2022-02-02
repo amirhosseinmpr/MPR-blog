@@ -1,3 +1,4 @@
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
 const withPWA = require('next-pwa');
 module.exports = withPWA({
   reactStrictMode: true,
