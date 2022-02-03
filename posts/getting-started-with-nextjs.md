@@ -1,7 +1,7 @@
 ---
 title: 'Udemy–Next.js&React–The Complete Guide 2021-12'
 date: '2022-01-15'
-image: Getting-Started-with-NextJS.png
+image: NextJS-React-The-Complete-Guide.png
 excerpt : Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!.
 isFeatured: true
 --- 
