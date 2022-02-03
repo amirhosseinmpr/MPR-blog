@@ -3,7 +3,7 @@ title: 'Udemy Next.js&React–The Complete Guide 2021-12'
 date: '2022-01-30'
 image: next.png
 excerpt : Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!.
-isFeatured: true
+isFeatured: false
 --- 
 
 BLearn all key NextJS features like pre-rendering, SSR, data fetching, file-based routing and authentication
