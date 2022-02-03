@@ -1,7 +1,7 @@
 ---
 title: 'Udemy–Next.js&React–The Complete Guide 2021-12'
 date: '2022-01-15'
-image: NextJS-React-The-Complete-Guide.png
+image: Getting-Started-with-NextJS.png
 excerpt : Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!.
 isFeatured: true
 --- 
@@ -28,7 +28,7 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 
 ## see validation
 
-![Create routes via your file + folder structure](/images/posts/Getting-Started-with-NextJS/Getting-Started-with-NextJS.png)
+
 [see validation on udemy](https://downloadly.ir/elearning/video-tutorials/nextjs-react-the-complete-guide/)
 
 
