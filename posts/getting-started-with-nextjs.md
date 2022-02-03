@@ -1,21 +1,18 @@
 ---
-title: 'Getting Started with NextJs'
-date: '2022-10-15'
+title: 'Udemy–Next.js&React–The Complete Guide 2021-12'
+date: '2022-01-15'
 image: Getting-Started-with-NextJS.png
-excerpt : Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites. React documentation mentions Next.js among "Recommended Toolchain" advising it to developers as a solution when "Building a server-rendered website with Node.js".[4] Traditional React apps render all their content in the client-side browser, Next.js is used to extend this functionality to include applications rendered on the server side.
+excerpt : Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!.
 isFeatured: true
 --- 
 
-NextJS is a **(The Course Has been Optimized and now includes also Git and GitHub Premium Lectures)**.
-So you want to learn Version Control Systems.
+BLearn all key NextJS features like pre-rendering, SSR, data fetching, file-based routing and authentication
 
-Maybe that's Git, GitHub (or maybe both Git GitHub), GitLab, or even Bit Buckets. Doesn't really matter.
+Build real projects and apply what you learned with hands-on projects and examples
 
-Let me teach you all the FUNDAMENTALS you need to get yourself STARTED as FAST as possible.
+Learn how to build client-side and fullstack ReactJS apps with NextJS
 
-I know that your time is precious and maybe you're about to start a NEW JOB at your dream company or maybe you need to start working on your projects right away - so LET'S NOT WASTE TIME!
-
-Studying our Git and GitHub Masterclass course will save you PLENTY of time googling and trying to connect the dots.
+Take the full course or the "NextJS Summary" module for a quickstart if you have limited time
 
 ## Why would we then need NextJS?
 
@@ -32,5 +29,6 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 ## see validation
 
 ![Create routes via your file + folder structure](/images/posts/Getting-Started-with-NextJS/Getting-Started-with-NextJS.png)
+[see validation on udemy](https://downloadly.ir/elearning/video-tutorials/nextjs-react-the-complete-guide/)
 
 
