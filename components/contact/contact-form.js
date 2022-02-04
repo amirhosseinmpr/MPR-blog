@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react';
 import classes from './contact-form.module.css';
 import Notification from '../ui/notification';
 
-async function sendContactData(contactDetails) {
-  fetch('../../pages/api/contact.js', {
+async function sendContactData(ContactForm) {
+  fetch('/api/contact', {
     method: 'POST',
-    body: JSON.stringify(contactDetails),
+    body: JSON.stringify(ContactForm),
     headers: {
       'Content-Type': 'application/json',
     },

@@ -8,6 +8,16 @@ async function handler(req, res) {
       name,
       message,
     };
+    if (
+      !email ||
+      !email.includes('@') ||
+      !name ||
+      name.trim() === '' ||
+      !message ||
+      message.trim() === ''
+    ) {
+      res.status(422).json({ message: ' invalid input' });
+    }
 
     let client;
     const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_cluster}.ji9cj.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
