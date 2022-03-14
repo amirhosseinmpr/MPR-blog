@@ -3,9 +3,9 @@ const withPWA = require('next-pwa');
 module.exports = withPWA({
   reactStrictMode: true,
   env: {
-    mongodb_username: 'USER',
-    mongodb_password: 'EjNUYvRsc8b8tEsK',
-    mongodb_cluster: 'cluster0',
+    mongodb_username: 'HARRY',
+    mongodb_password: 'BUWF9@ua6i$j69C',
+    mongodb_cluster: 'cluster2',
     mongodb_database: 'myFirstDatabase',
   },
   pwa: {

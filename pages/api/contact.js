@@ -20,7 +20,7 @@ async function handler(req, res) {
     }
 
     let client;
-    const connectionString = `mongodb+srv://HARRY:l5Vwe608BgMhu5wN@cluster2.ohasy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+    const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_cluster}.ji9cj.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
 
     try {
       client = await MongoClient.connect(connectionString);
