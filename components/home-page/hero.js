@@ -170,7 +170,8 @@ function Hero() {
       </div>
       <h1>Hi, I'm AmirHossein </h1>
       <p>
-        blog about web development -specially front-end frameworks like React
+        blog about web development -specially front-end frameworks like React &&
+        About my skills and more familiarity to collaborate
       </p>
     </section>
   );
