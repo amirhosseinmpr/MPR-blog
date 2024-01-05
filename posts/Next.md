@@ -15,6 +15,6 @@ Join this bestselling NextJS course and learn how to build highly dynamic, super
 
 This course comes with two paths which you can take: The "complete" path (full >20h course) and the "summary" path (~3h summary module) - you can choose the path that best fits your time requirements!
 
-[see validation on udemy](https://downloadly.ir/elearning/video-tutorials/nextjs-react-the-complete-guide/)
+[see validation on udemy](https://www.udemy.com/certificate/UC-7394f0e1-0df4-46ea-837f-27136d4904c2/)
 
 

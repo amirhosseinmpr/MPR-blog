@@ -23,4 +23,4 @@ I originally created this course in 2017 and I have kept it updated since that -
 ## see validation
 
 
-[see validation on udemy](https://downloadly.ir/elearning/video-tutorials/react-16-the-complete-guide-incl-redux-5/)
+[see validation on udemy](https://www.udemy.com/course/leadership-a-z-ultimate-basic-skills-for-new-leaders/learn/lecture/28429396?start=0#overview/)
